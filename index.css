@@ -1,0 +1,97 @@
+body {
+    display:block;
+    margin:auto;
+    background-color: #1C2526; /* Dark background matching the screenshot */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 550px;
+    height: 550px;
+    margin-top: 64px;
+    margin-left: 26px;
+    background-color: #1F2937;
+}
+
+.text {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    margin-top: 115px;
+    margin-left: 52px;
+}
+
+.text-generate {
+    color: #ffffff; /* White for "Generate a" */
+}
+
+.text-random {
+    color: #55F991; /* Green matching the password text */
+    display: block; /* Puts "random password" on a new line */
+}
+
+.support {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: #d5d4d8;
+    line-height: 28px;
+    margin-left: 52px;
+}
+
+.textStyling {
+    width: 372px;
+    height: 28px;
+}
+
+.btn {
+    padding: 9px 17px 9px 15px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: #10b981;
+    border-radius: 8px;
+    width: 191px;
+    height: 42px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    border: none;
+}
+
+.line {
+    width: 446px;
+    top: 361px;
+    left: 52px;
+    border: 1px solid #4B5563;
+    margin: 20px auto 0px auto;
+    background-color: #2F3e53;
+}
+
+.output {
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background-color: #273549;
+    margin: 40px 40px 10px 10px;
+    color: #55F991;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:40px;
+}
