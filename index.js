@@ -4,13 +4,14 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 // Fucntion name: generatePassword
 // button id: button-el
 //Set password length=15 
-let buttonEl = document.getElementById("button-el");
+
 let passwordEl = document.getElementById("password-el");
 let passwordEl2 = document.getElementById("password-el2");
-let passwordLength = 16;
+let passwordLength = 15;
 // Function to generate a random password
 function generatePassword() {
-    let password = "";
+    let password = ""; //setting password to empty string
+    
     for (let i = 0; i < passwordLength; i++) {
         let randomIndex = Math.floor(Math.random() * characters.length);
         password += characters[randomIndex];
